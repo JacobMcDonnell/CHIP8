@@ -1,0 +1,18 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     chip8
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _initCpu, symObjAddr: 0x0, symBinAddr: 0x100003CE4, symSize: 0x28 }
+  - { offsetInCU: 0x3F, offset: 0x3F, size: 0x8, addend: 0x0, symName: _V, symObjAddr: 0xFF2, symBinAddr: 0x100008002, symSize: 0x0 }
+  - { offsetInCU: 0x79, offset: 0x79, size: 0x8, addend: 0x0, symName: _pc, symObjAddr: 0x168, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0xA0, offset: 0xA0, size: 0x8, addend: 0x0, symName: _indexRegister, symObjAddr: 0x1002, symBinAddr: 0x100008012, symSize: 0x0 }
+  - { offsetInCU: 0xB5, offset: 0xB5, size: 0x8, addend: 0x0, symName: _stack, symObjAddr: 0x1004, symBinAddr: 0x100008014, symSize: 0x0 }
+  - { offsetInCU: 0xD6, offset: 0xD6, size: 0x8, addend: 0x0, symName: _stackPointer, symObjAddr: 0x1044, symBinAddr: 0x100008054, symSize: 0x0 }
+  - { offsetInCU: 0xEB, offset: 0xEB, size: 0x8, addend: 0x0, symName: _memory, symObjAddr: 0x1045, symBinAddr: 0x100008055, symSize: 0x0 }
+  - { offsetInCU: 0x10D, offset: 0x10D, size: 0x8, addend: 0x0, symName: _sprites, symObjAddr: 0x16A, symBinAddr: 0x100003F1C, symSize: 0x0 }
+  - { offsetInCU: 0x12F, offset: 0x12F, size: 0x8, addend: 0x0, symName: _initCpu, symObjAddr: 0x0, symBinAddr: 0x100003CE4, symSize: 0x28 }
+  - { offsetInCU: 0x144, offset: 0x144, size: 0x8, addend: 0x0, symName: _loadRom, symObjAddr: 0x28, symBinAddr: 0x100003D0C, symSize: 0x9C }
+  - { offsetInCU: 0x188, offset: 0x188, size: 0x8, addend: 0x0, symName: _cycleCpu, symObjAddr: 0xC4, symBinAddr: 0x100003DA8, symSize: 0xA4 }
+  - { offsetInCU: 0x26, offset: 0x3E7, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003E4C, symSize: 0x7C }
+  - { offsetInCU: 0x41, offset: 0x402, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003E4C, symSize: 0x7C }
+...

@@ -1,0 +1,26 @@
+# Specify target executable name
+TARGET = chip8
+
+# List source files
+SOURCES = src/chip8.c src/main.c
+
+# Include header files
+INCLUDE_DIRS = -Iinclude
+
+# Define compiler flags
+CFLAGS = -Wall -Wextra -g
+
+# Build command
+all: $(TARGET)
+
+$(TARGET): $(SOURCES)
+	clang $(CFLAGS) $(INCLUDE_DIRS) $(SOURCES) -o $(TARGET)
+
+# Clean command
+clean:
+	rm -f $(TARGET) build/*
+
+# Run the program
+run:
+	./$(TARGET)
+
