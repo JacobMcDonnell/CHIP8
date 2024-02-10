@@ -8,7 +8,7 @@ SOURCES = src/chip8.c src/main.c
 INCLUDE_DIRS = -Iinclude
 
 # Define compiler flags
-CFLAGS = -Wall -Wextra -g
+CFLAGS = -Wall -Werror -Wextra -g
 
 # Build command
 all: $(TARGET)
